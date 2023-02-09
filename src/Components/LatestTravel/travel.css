@@ -1,0 +1,34 @@
+.travel{
+    /* margin-top: 20x; */
+    background-color: gainsboro;
+    border: 2px solid;
+    border-radius: 10px;
+    height: 400px;
+    margin: 20px;
+    width: 300px;
+    text-align: center;
+}
+.travel:hover{
+    box-shadow: 10px 10px 2px gray;
+    background-color: black;
+    color: white;
+    transform: translate(20px);
+    transition: all linear 0.3s;
+}
+.travel:not(:hover){
+    height: 400px; 
+    width: 300px;
+    transition: all linear 0.3s;
+}
+.tarvelimg{
+    height: 198px;
+    border-radius: 10px;
+}
+.travelpara{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp:4;
+    -webkit-box-orient: vertical;
+    margin: 20px;
+}

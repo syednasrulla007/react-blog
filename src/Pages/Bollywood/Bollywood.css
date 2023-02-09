@@ -1,0 +1,17 @@
+.bollywoodcon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+/* .toppost{
+    background-color: gray;
+} */
+@media (max-width:800px) {
+    .container{
+        flex-direction: column;
+    }
+}

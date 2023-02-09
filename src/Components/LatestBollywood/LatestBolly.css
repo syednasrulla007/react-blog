@@ -1,0 +1,58 @@
+.latestbolly{
+    padding-right: 20px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    border: 6px ridge rgb(169, 119, 222);
+    border-radius: 10px;
+    /* background-color: black; */
+    height: 340px;
+    width: 400px;
+}
+.latestbolly:hover{
+    transform: translateX(20px);
+    transition: all 0.3s linear;
+    box-shadow: 20px 20px 2px gray ;
+}
+.latestbolly:not(:hover){
+    transform: translateX(-20px);
+    transition: all 0.3s linear;
+}
+.bollyimg{
+    border: 2px solid black;
+    /* box-shadow: 5px 5px gray; */
+    height: 300px;
+    width: 200px;
+    
+}
+.bollyhead{
+    text-align: center;
+    /* border: 2px solid black; */
+}
+.bollypara{
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: justify;
+    /* height: 200px; */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp:5;
+    -webkit-box-orient: vertical;
+    /* border: 2px solid black; */
+}
+
+@media (max-width:650px) {
+    .latestbolly{
+        padding-right: 0px;
+        width: 240px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .bollyhead{
+        display: none;
+    }
+    .bollypara{
+        display: none;
+    }
+}

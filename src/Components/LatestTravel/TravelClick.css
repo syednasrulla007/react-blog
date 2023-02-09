@@ -1,0 +1,15 @@
+.singletravel{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.singletrvelimg{
+    height: 60vh;
+    width: 30vw;
+}
+.singletravelpara{
+    width:50vw;
+    text-align: center;
+    /* background-color: aqua; */
+    
+}

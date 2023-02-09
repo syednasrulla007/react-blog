@@ -1,0 +1,11 @@
+.fitnesscon{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* flex-direction: column; */
+}
+@media (max-width:800px) {
+    .fitnesscon{
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,23 @@
+.foodimg{
+    height: 210px;
+    border-radius: 10px;
+}
+.foodcon{
+    margin-top: 10px;
+    height: 356px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp:5;
+    -webkit-box-orient: vertical;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+    margin-left: 20px;
+    background-color: gainsboro;
+}
+.technopara{
+    padding: 10px;
+    /* text-align: justify; */
+    /* width: 200px; */
+}

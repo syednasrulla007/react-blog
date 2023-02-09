@@ -1,0 +1,25 @@
+.fitimg{
+    height: 330px;
+    border-radius: 10px;
+}
+.fitcon{
+    margin-top: 10px;
+    height: 440px;
+    padding: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp:4;
+    -webkit-box-orient: vertical;
+    border-radius: 10px;
+    width: 250px;
+    text-align: center;
+    margin-left: 20px;
+    background-color: gainsboro;
+}
+.fitpara{
+    margin-bottom: 0px;
+    padding: 10px;
+    /* text-align: justify; */
+    /* width: 200px; */
+}

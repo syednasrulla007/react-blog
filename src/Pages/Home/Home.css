@@ -1,0 +1,69 @@
+*{
+    box-sizing: border-box;
+}
+.home{
+    /* display: none; */
+    align-items: center;
+}
+.latesttravel{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90vw;
+    /* flex-direction: column; */
+    align-items: center;
+    /* background-color: aqua; */
+    justify-content: space-between;
+}
+.homebolly{
+    width: 80vw;
+    /* background-color: gainsboro; */
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+    /* align-items: center; */
+    justify-content: space-around;
+}
+
+.box1{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    /* background-color: blue; */
+}
+.box2{
+    background-image: linear-gradient(
+        aqua,
+        green,
+        yellow
+    );
+    /* height: 900px; */
+    width: 300px;
+    border: 2px solid black;
+}
+.hometechno{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media (max-width:800px) {
+    .latesttravel{
+        flex-direction: column;
+        align-items: center;
+    }
+    .hometechno{
+        flex-direction: column;
+    }
+    .homebolly{
+        /* background-color: aqua; */
+        flex-direction: column;
+        align-items: center;
+    }
+    .box1{
+        width: 320px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .box2{
+        width: 250px;
+    }
+}
